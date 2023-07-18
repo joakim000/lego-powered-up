@@ -87,7 +87,7 @@ pub async fn io_event_handler(
     const ATTACHED: bool = true;
     const HUB: bool = false;
     const INPUT: bool = false;
-    const OUTPUT: bool = true;
+    const OUTPUT: bool = false;
     const _VALUES: bool = false;
     loop {
         tokio::select! {
